@@ -1,0 +1,20 @@
+while True:
+    print()
+    n1 = int(input("Digite Um Número: "))
+    op = str(input("Digite Um Operador: "))
+    n2 = int(input("Digite Um Número: "))
+
+    if op == "+":
+        print(n1 + n2)
+
+    elif op == "-":
+        print(n1 - n2)
+
+    elif op == "*":
+        print(n1 * n2)
+
+    elif op == "/":
+        print(n1 / n2)
+
+    else:
+        print("Operador Inválido!, Digite Novamente")
